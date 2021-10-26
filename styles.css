@@ -2,18 +2,22 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
-  
+  box-sizing: border-box;   
 }
 
 header{
     background-color: rgb(211, 211, 211);
     text-align: center;
-  
 }
 
 ul{
     padding-left: 30px;
+    font-size: x-large;
+    
+    
+}
+li{
+    text-decoration: nones;
 }
   .header-img{
     border-radius: 50%;
@@ -25,8 +29,7 @@ main{
     margin-top: 2%;
    
 }
-
-
 footer{
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-left: 85%;
 }
