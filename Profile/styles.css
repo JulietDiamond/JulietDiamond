@@ -40,3 +40,6 @@ footer{
     margin-top: 15%;
     margin-left: 85%;
 }
+.footer-link{
+    display: flex;
+}
