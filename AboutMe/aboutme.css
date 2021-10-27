@@ -47,7 +47,7 @@ body{
         text-decoration: none;
     }
     .fav-movies ol li a{
-        float: right; color: white;
+        float: right; color: wheat;
     }
     .fav-movies ol li a:hover{
         float: right; color: darkred;
