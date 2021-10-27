@@ -5,7 +5,7 @@ body{
 }
     .header{
         background-repeat: no-repeat; background-size: cover;
-        background-image: url('/AboutMe/AboutMeImages/backgroundImage.jpg');
+        background-image: url('AboutMeImages/backgroundImage.jpg');
         padding: 2%; width: 96%;
         font-size: 27px; color: wheat; font-weight: bold; text-align: center;
     }
