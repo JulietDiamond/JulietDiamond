@@ -11,7 +11,7 @@ body{
     }
 
     .header p{
-        font-size: 20px; color: white;
+        font-size: 20px; color: wheat;
     }
    
     .course-list{
@@ -47,7 +47,7 @@ body{
         text-decoration: none;
     }
     .fav-movies ol li a{
-        float: right; color: wheat;
+        float: right; color: white;
     }
     .fav-movies ol li a:hover{
         float: right; color: darkred;
