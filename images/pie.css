@@ -30,6 +30,6 @@ a{
 }
 
 section{
-    border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black; */
     margin-top: 15px;
 }
