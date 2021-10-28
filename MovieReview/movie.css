@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 8pt;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+/** adding background image to the body */
+body{
+    background-image: url(/MovieReview/images/background.png);
+}
+/** adding background image to the body ends */
+
+/** adding image to the header and styling it */
+.top-header{
+    height: 50px;
+    background-image: url(/MovieReview/images/bannerbg.png);
+    
+}
+.top-header .image-banner{
+    display: flex;
+  justify-content: center;
+}
+h1{
+   font-size: 24pt; 
+   font-weight: bold;
+   text-shadow: 3px 3px #999999;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+/** adding image to the header and styling it ends */
+
+/** styling the main page */
+.overall-content-container{
+    background-color: #A2B964;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 800px;
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+.critics{
+    width: 550px;
+    background-image: url(/MovieReview/images/background.png);
+    border-radius: 0 0 0 10px;
+}
+.rotton-33-header{
+    background-image: url(/MovieReview/images/rbg.png);
+    background-repeat: repeat;
+    height: 83px;   
+    
+}
+.rotton-33-header span{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+.grid-layout-critic{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+  
+}
+.grid-layout-critic div{
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-right: 5px;
+}
+.grid-layout-critic .critic-card{
+    font-weight: bold;
+    background-color:#E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+.critic-card1{
+    margin-top: 10px;
+}
+.critic-card1 img{
+   float: left;
+}
+.publication{
+    font-style: italic;
+}
+.paginate{
+    background-color:#A2B964;
+    margin-top: 100px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 0 0 0 10px;
+}
+ul{
+    margin-top: 5px; 
+}
+ li{
+    list-style: none;
+}
+a{
+    color: blue;
+}
+.image-container img{
+    width: 242px;
+    border-radius: 0 10px 0 0;
+}
+.image-container{
+    width: 250px;
+}
+ .cast-container{
+     margin-left: 10px;
+     margin-top: 5px;
+ }
+ dt{
+     font-weight: bold;
+     margin-top: 10px;
+ }
+ dd{
+     margin-left: 30px;
+ }
+ .validation{
+ position: fixed;
+ bottom: 0;
+ right: 0;
+     
+ }
+ .validation img{
+     opacity: 0.5;
+     display: block;
+ }
+ h2{
+     margin-top: 5px;
+ }
+/** styling the main page */
