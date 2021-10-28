@@ -8,14 +8,14 @@
 
 /** adding background image to the body */
 body{
-    background-image: url(/MovieReview/images/background.png);
+    background-image: url(images/background.png);
 }
 /** adding background image to the body ends */
 
 /** adding image to the header and styling it */
 .top-header{
     height: 50px;
-    background-image: url(/MovieReview/images/bannerbg.png);
+    background-image: url(images/bannerbg.png);
     
 }
 .top-header .image-banner{
@@ -44,11 +44,11 @@ h1{
 }
 .critics{
     width: 550px;
-    background-image: url(/MovieReview/images/background.png);
+    background-image: url(images/background.png);
     border-radius: 0 0 0 10px;
 }
 .rotton-33-header{
-    background-image: url(/MovieReview/images/rbg.png);
+    background-image: url(images/rbg.png);
     background-repeat: repeat;
     height: 83px;   
     
