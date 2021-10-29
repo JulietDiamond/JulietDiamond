@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main-content{
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+fieldset{
+    padding: 20px;
+    background-color: rgb(236, 217, 181);
+    box-shadow: 3px 3px gray;
+    border: none;
+}
+legend{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+label{
+  display: inline-block;
+  width: 40%;
+  font-weight: bold;
+}
+p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+button{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    font-weight: bold;
+    border-radius: 3px;
+    
+}
+.validation{
+    opacity: 0.5;
+    margin-top: 20px;
+    float: right;
+}
