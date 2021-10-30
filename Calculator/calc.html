@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><img src="images/calc.jpg" alt="calculator" id="logo">
+        Tip Calculator
+    </h1>
+    <div>
+        <label for="">
+            <input type="text" id="subtotal"> $ Subtotal
+        </label>
+    </div>
+    <div>
+        <label for="">
+            <input type="text" id="tip"> % Tip
+        </label>
+    </div>
+    <div>
+        <button onclick="calcTip()" id="btn">Calculate Tip</button>
+    </div>
+    <hr>
+    <div>
+        <h2>Your total:</h2>
+        <p id="total">$0.00</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
