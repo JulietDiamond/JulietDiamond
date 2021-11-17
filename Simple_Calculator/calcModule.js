@@ -24,6 +24,7 @@ exports.calc = function (req, res, vals) {
     <h1>The Answer is:${String(result)}
     </h1>
     </body>
-    </html>`)
+    </html>
+    `)
     return res.end();
   };
